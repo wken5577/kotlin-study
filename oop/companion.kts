@@ -20,8 +20,10 @@ class MachineOperator (val name : String){
         fun minimumBreak() = "15 minutes every 2 hours"
     }
 }
-
-MachineOperator("Mater").checkin()
+val operator1 = MachineOperator("Mater")
+val operator2 = MachineOperator("Francis")
+operator1.checkin()
+operator2.checkin()
 println(MachineOperator.minimumBreak())
 println(MachineOperator.checkedIn)
 
