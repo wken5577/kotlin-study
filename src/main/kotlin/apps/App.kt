@@ -1,5 +1,5 @@
 package apps
 
-fun main(){
+fun main(@Suppress("UNUSED_PARAMETER") args: Array<String>){
     println("Hello World")
 }

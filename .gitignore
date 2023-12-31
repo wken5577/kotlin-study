@@ -11,3 +11,4 @@ build
 build.gradle.kts
 gradlew.bat
 settings.gradle.kts
+.kotlintest
