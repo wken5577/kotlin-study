@@ -1,3 +1,7 @@
+/**
+ * 재귀를 이용한 quicksort알고리즘
+ */
+
 fun sort (numbers : List<Int>) : List<Int> =
     if (numbers.isEmpty())
         numbers
