@@ -1,10 +1,9 @@
-package async
+package async16
 
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.runBlocking
-import kotlin.system.measureTimeMillis
 
 fun main(){
     runBlocking {

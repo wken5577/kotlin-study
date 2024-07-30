@@ -1,4 +1,4 @@
-package async
+package async16
 
 import com.beust.klaxon.Json
 import com.beust.klaxon.Klaxon

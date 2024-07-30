@@ -4,6 +4,7 @@ import com.beust.klaxon.Json
 import com.beust.klaxon.Klaxon
 import java.lang.Exception
 
+
 data class Airport(@Json(name = "IATA") val code: String,
                    @Json(name = "Name") val name: String,
                    @Json(name = "Delay") val delay: Boolean) {

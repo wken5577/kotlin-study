@@ -1,4 +1,4 @@
-package coroutines
+package coroutines15
 
 import kotlinx.coroutines.*
 import java.util.concurrent.Executors
@@ -6,6 +6,9 @@ import java.util.concurrent.Executors
 /*
  * 코루틴을 한 컨텍스트에서 실행하다가 중간에 컨텍스트를 바꾸고 싶다면 어떨까??
  * kotlin은 이를 위해 withContext()함수를 가지고 있다.
+ *
+ * withContext는 새로운 코루틴을 실행시키지 않는다. 반면에 launch로 실행시킨 람다는 새로운 코루틴에서 실행된다.
+ * runBlocking과 launch 함수에 CoroutineName() 인스턴스를 전달하여 이름 설정 가능
  */
 
 private suspend fun task1() {
